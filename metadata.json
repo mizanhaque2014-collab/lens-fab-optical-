@@ -1,0 +1,6 @@
+{
+  "name": "LensFab Optical",
+  "description": "Premium Eyeglasses, Designer Sunglasses, Contact Lenses & Computerized Eye Testing at Rashbehari Avenue, South Kolkata.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

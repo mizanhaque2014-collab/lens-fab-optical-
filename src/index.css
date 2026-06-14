@@ -1,0 +1,82 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  /* Custom Navy Blue Palette */
+  --color-navy-50: #f4f6fa;
+  --color-navy-100: #e8ebf5;
+  --color-navy-200: #c6ceea;
+  --color-navy-300: #97a6da;
+  --color-navy-400: #6276c4;
+  --color-navy-500: #3c50aa;
+  --color-navy-600: #2e3e8f;
+  --color-navy-700: #1c275c;
+  --color-navy-800: #11183c;
+  --color-navy-900: #0a0e24;
+  --color-navy-950: #050713;
+
+  /* Brand Accents */
+  --color-gold-400: #fbbf24;
+  --color-gold-500: #f59e0b;
+  --color-gold-600: #d97706;
+
+  /* Custom Transitions & Blur */
+  --animate-pulse-subtle: pulse-subtle 2s infinite ease-in-out;
+  --animate-float-slow: float-slow 6s ease-in-out infinite;
+}
+
+@keyframes pulse-subtle {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.05);
+    opacity: 0.95;
+  }
+}
+
+@keyframes float-slow {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-10px) rotate(1.5deg);
+  }
+}
+
+/* Light scrollbar aesthetics */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-navy-50);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-navy-200);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-navy-400);
+}
+
+/* Global utility for luxury glass effect */
+.glass-effect {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+/* Base styles to support premium look */
+body {
+  background-color: #fafbfc;
+  color: #111827;
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
