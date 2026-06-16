@@ -173,11 +173,46 @@ export const PRODUCTS_DATA: Product[] = [
 
 export const GALLERY_DATA: GalleryItem[] = [
   {
+    id: 'g1',
+    title: 'LensFab Front Signboard & Entrance',
+    category: 'store',
+    imageUrl: '/images/lensfab-signboard.webp',
+    description: 'Our prominent South Kolkata storefront signboard with high-visibility illuminated lettering at Rashbehari Avenue.'
+  },
+  {
+    id: 'g2',
+    title: 'Luxury Designer Frame Columns',
+    category: 'frames',
+    imageUrl: '/images/lensfab-cabinet-brands.webp',
+    description: 'Premium wall displays displaying authentic collections from Tommy Hilfiger, Fastrack and Crizal lenses.'
+  },
+  {
+    id: 'g3',
+    title: 'Ray-Ban & Crizal Eye-Styling Displays',
+    category: 'frames',
+    imageUrl: '/images/lensfab-cabinet-rayban.webp',
+    description: 'Organized rows of pristine prescription designs and sunglasses paired with secure modern QR billing stations.'
+  },
+  {
     id: 'g4',
     title: 'Custom Prescriptive Alignment',
     category: 'customers',
     imageUrl: 'https://images.unsplash.com/photo-1591076482161-42ce6da69f67?auto=format&fit=crop&w=800&q=80',
     description: 'Precision physical lens centering customized carefully for optimal progressive corridor heights.'
+  },
+  {
+    id: 'g5',
+    title: 'Computerized Autorefractometer Diagnostics',
+    category: 'testing',
+    imageUrl: '/images/lensfab-autorefractor.webp',
+    description: 'State-of-the-art Matrix computerized autorefractor and clinical slit-lamp equipment for zero-error vision testing.'
+  },
+  {
+    id: 'g6',
+    title: 'Exclusive Vogue Eyewear Showcase',
+    category: 'frames',
+    imageUrl: '/images/lensfab-cabinet-vogue.webp',
+    description: 'Our high-fashion cabinet displaying Vogue frames and specialized Bausch + Lomb and Nova complete eyewear products.'
   }
 ];
 
