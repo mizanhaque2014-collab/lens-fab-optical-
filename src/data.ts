@@ -93,7 +93,7 @@ export const PRODUCTS_DATA: Product[] = [
     categoryLabel: 'Premium Frames',
     description: 'Classic elegance and lightweight precision. Sleek metallic double-bridge frames in refined surgical-grade steel.',
     price: '₹2,899',
-    image: '/src/assets/images/retro_double_bridge_aviators_1781442487965.jpg',
+    image: 'https://images.unsplash.com/photo-1511556532299-8f662fc26c06?auto=format&fit=crop&w=600&q=80',
     features: ['Surgical-grade steel', 'Double-bridge design', 'Comfort flex-hinges', 'All-day ergonomic fit']
   },
   {
@@ -103,7 +103,7 @@ export const PRODUCTS_DATA: Product[] = [
     categoryLabel: 'Premium Frames',
     description: 'An elegant curation of ultra-lightweight metallic frames, showcasing classic round and aviator wire arches with comfortable acetate temple tips.',
     price: '₹3,499',
-    image: '/src/assets/images/elegant_wireframes_collection_1781442953856.jpg',
+    image: 'https://images.unsplash.com/photo-1502419655700-1c985f41db10?auto=format&fit=crop&w=600&q=80',
     isPopular: true,
     features: ['High-tensile steel wire', 'Ergonomic nose pads', 'Comfort flex-hinges', 'Ultra-lightweight feel']
   },
@@ -114,7 +114,7 @@ export const PRODUCTS_DATA: Product[] = [
     categoryLabel: 'Designer Sunglasses',
     description: 'An elite assortment featuring icons from Gucci, Prada, and Miu Miu. Masterpieces in bold acetate profiles and refined round wire arches.',
     price: '₹5,500',
-    image: '/src/assets/images/designer_luxury_flatlay_1781443323154.jpg',
+    image: 'https://images.unsplash.com/photo-1511499767150-a48a237f0083?auto=format&fit=crop&w=600&q=80',
     features: ['Gucci Acetate Shells', 'Prada Gold Bridges', 'Signature Miu Miu Pink', '100% UV Protection Glass']
   },
   {
@@ -124,7 +124,7 @@ export const PRODUCTS_DATA: Product[] = [
     categoryLabel: 'Designer Frames',
     description: 'Modern transparent crystal-clear frame styled from lightweight, hand-polished organic Italian acetate blocks.',
     price: '₹3,999',
-    image: '/src/assets/images/crystal_clear_acetate_specs_1781444274747.jpg',
+    image: 'https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=600&q=80',
     features: ['Crystal-clear transparency', 'Subtle gold-core temples', 'Comfort flex-hinges', 'Organic plant-based blocks']
   },
   {
@@ -134,7 +134,7 @@ export const PRODUCTS_DATA: Product[] = [
     categoryLabel: 'Sunglasses',
     description: 'Striking oversized black acetate lenses adorned with sparkling handcrafted crystal rows on the outer temples.',
     price: '₹4,799',
-    image: '/src/assets/images/glamorous_sunglasses_portrait_1781443341663.jpg',
+    image: 'https://images.unsplash.com/photo-1577803645773-f96470509666?auto=format&fit=crop&w=600&q=80',
     features: ['Polished hand-set crystals', 'Shatter-proof gradient tint', 'Scratch-resistant core', 'Ergonomic thick temples']
   },
   {
@@ -144,7 +144,7 @@ export const PRODUCTS_DATA: Product[] = [
     categoryLabel: 'Kids Frames',
     description: 'Ultra-flexible, shatterproof, and comfortable lightweight frames configured perfectly for active school kids.',
     price: '₹1,850',
-    image: '/src/assets/images/kids_smart_fit_specs_1781444790787.jpg',
+    image: 'https://images.unsplash.com/photo-1614252369475-531eba835eb1?auto=format&fit=crop&w=600&q=80',
     features: ['Shatterproof flexy material', 'BPA-free medical silicone', 'Smart non-slip temple tips', 'Ergonomic light comfort']
   },
   {
@@ -155,7 +155,7 @@ export const PRODUCTS_DATA: Product[] = [
     description: 'Ultra-breathable cosmetic contact lenses in lovely Pure Hazel tone with Hydraclear Plus tech.',
     price: '₹1,450',
     originalPrice: '₹1,850',
-    image: '/src/assets/images/pure_hazel_cosmetic_lens_1781445625573.jpg',
+    image: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=600&q=80',
     features: ['Biocompatible Hazel tint', 'Class 1 UV-blocking core', '14-hour moisture lock', 'Exceptional comfort fit']
   },
   {
@@ -166,7 +166,7 @@ export const PRODUCTS_DATA: Product[] = [
     description: 'Stunning light ash-grey cosmetic lenses with deep dark outer ring definition for daily wear.',
     price: '₹1,550',
     originalPrice: '₹1,999',
-    image: '/src/assets/images/platinum_gray_cosmetic_lens_1781445645135.jpg',
+    image: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=600&q=80',
     features: ['Contrast ash-grey pigments', 'High oxygen permeability', 'Ultra-soft hydrogel matrix', 'Tear-film friendly structure']
   },
   {
@@ -177,7 +177,7 @@ export const PRODUCTS_DATA: Product[] = [
     description: 'Cosmetic blue contact lenses featuring starry pupil accents and long-lasting absolute hydration.',
     price: '₹1,650',
     originalPrice: '₹2,100',
-    image: '/src/assets/images/sparkling_blue_cosmetic_lens_1781445665164.jpg',
+    image: 'https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?auto=format&fit=crop&w=600&q=80',
     features: ['Shining starburst azure', 'Anti-dryness Hydraclear plus', 'Zero-friction edge mold', 'Protective corneal shield']
   }
 ];
@@ -187,21 +187,21 @@ export const GALLERY_DATA: GalleryItem[] = [
     id: 'g1',
     title: 'Modern Optical Boutique Showroom',
     category: 'store',
-    imageUrl: '/src/assets/images/luxury_optical_showroom_1781441996186.jpg',
+    imageUrl: 'https://images.unsplash.com/photo-1509695507497-903c140c43b0?auto=format&fit=crop&w=800&q=80',
     description: 'Inside our boutique store at Rashbehari Avenue, South Kolkata featuring high-end showcases.'
   },
   {
     id: 'g2',
     title: 'Precision Slit-Lamp Eye Examination',
     category: 'testing',
-    imageUrl: '/src/assets/images/computerized_eye_testing_autograde_1781450028093.jpg',
+    imageUrl: 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=800&q=80',
     description: 'Highly detailed computerized slit-lamp biomicroscope check to capture exact refractive index and ocular health mapping.'
   },
   {
     id: 'g3',
     title: 'Designer Frame Cabinets',
     category: 'frames',
-    imageUrl: '/src/assets/images/crystal_clear_acetate_specs_1781444274747.jpg',
+    imageUrl: 'https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=800&q=80',
     description: 'Browse through over 500+ contemporary specifications in dynamic sizes and styles.'
   },
   {

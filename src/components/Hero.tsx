@@ -7,7 +7,7 @@ import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { Shield, Sparkles, Calendar, MessageSquare, Phone, ArrowDown, Award, Eye, Layers, ChevronRight, Store, MapPin, BadgeCheck, CheckCircle } from 'lucide-react';
 
-const luxuryOpticalShowroom = '/src/assets/images/luxury_optical_showroom_1781441996186.jpg';
+const luxuryOpticalShowroom = 'https://images.unsplash.com/photo-1509695507497-903c140c43b0?auto=format&fit=crop&w=2000&q=90';
 
 interface ShowroomFrame {
   id: string;
