@@ -61,12 +61,11 @@ export default function Reviews() {
               {/* Reviewer Avatar */}
               <div className="flex-shrink-0 relative">
                 <div className="absolute inset-0 bg-navy-500 rounded-full blur-md opacity-25" />
-                <img
-                  src={current.avatar}
-                  alt={current.name}
-                  referrerPolicy="no-referrer"
-                  className="relative w-20 h-20 rounded-full object-cover border-4 border-white shadow-md"
-                />
+                <div className={`relative w-20 h-20 rounded-full flex items-center justify-center font-display text-2xl font-bold border-4 border-white shadow-md ${
+                  ['bg-navy-600 text-white', 'bg-teal-600 text-white', 'bg-amber-600 text-white', 'bg-indigo-600 text-white'][currentIndex % 4]
+                }`}>
+                  {current.name.split(' ').map(n => n[0]).join('').slice(0, 2).toUpperCase()}
+                </div>
               </div>
 
               {/* Review Text */}

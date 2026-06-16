@@ -8,6 +8,7 @@ import { motion } from 'motion/react';
 import { Eye, Glasses, Sparkles, Sun, ShoppingBag, Home, ArrowRight } from 'lucide-react';
 import { SERVICES_DATA } from '../data';
 import { Service } from '../types';
+import TechnologyGrowthChart from './TechnologyGrowthChart';
 
 const getServiceIcon = (iconName: string) => {
   switch (iconName) {
@@ -137,6 +138,8 @@ export default function Services() {
             );
           })}
         </div>
+
+        <TechnologyGrowthChart />
       </div>
     </section>
   );

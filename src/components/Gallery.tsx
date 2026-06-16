@@ -19,7 +19,7 @@ export default function Gallery() {
     { value: 'testing', label: 'Eye Testing' },
     { value: 'frames', label: 'Frames Collections' },
     { value: 'customers', label: 'Happy Customers' },
-  ];
+  ].filter((cat) => cat.value === 'all' || GALLERY_DATA.some((item) => item.category === cat.value));
 
   const filteredItems = GALLERY_DATA.filter((item) => {
     return activeCategory === 'all' || item.category === activeCategory;

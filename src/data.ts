@@ -55,17 +55,6 @@ export const SERVICES_DATA: Service[] = [
 
 export const PRODUCTS_DATA: Product[] = [
   {
-    id: 'p1',
-    name: 'Titanium Premium Round-Frame',
-    category: 'frames',
-    categoryLabel: 'Premium Frames',
-    description: 'Ultra-lightweight aerospace grade pure titanium round spectacles in matte charcoal.',
-    price: '₹3,499',
-    image: 'https://images.unsplash.com/photo-1574258495973-f010dfbb5371?auto=format&fit=crop&w=600&q=80',
-    isPopular: true,
-    features: ['Hypoallergenic Metal', 'Only 8 grams wt.', 'Corrosion Resistant', 'Flexible temples']
-  },
-  {
     id: 'p2',
     name: 'Polarized Aviator Sunglasses',
     category: 'sunglasses',
@@ -93,7 +82,7 @@ export const PRODUCTS_DATA: Product[] = [
     categoryLabel: 'Premium Frames',
     description: 'Classic elegance and lightweight precision. Sleek metallic double-bridge frames in refined surgical-grade steel.',
     price: '₹2,899',
-    image: 'https://images.unsplash.com/photo-1511556532299-8f662fc26c06?auto=format&fit=crop&w=600&q=80',
+    image: 'https://images.unsplash.com/photo-1508296695146-257a814070b4?auto=format&fit=crop&w=600&q=80',
     features: ['Surgical-grade steel', 'Double-bridge design', 'Comfort flex-hinges', 'All-day ergonomic fit']
   },
   {
@@ -103,7 +92,7 @@ export const PRODUCTS_DATA: Product[] = [
     categoryLabel: 'Premium Frames',
     description: 'An elegant curation of ultra-lightweight metallic frames, showcasing classic round and aviator wire arches with comfortable acetate temple tips.',
     price: '₹3,499',
-    image: 'https://images.unsplash.com/photo-1502419655700-1c985f41db10?auto=format&fit=crop&w=600&q=80',
+    image: 'https://images.unsplash.com/photo-1473496169904-658ba7c44d8a?auto=format&fit=crop&w=600&q=80',
     isPopular: true,
     features: ['High-tensile steel wire', 'Ergonomic nose pads', 'Comfort flex-hinges', 'Ultra-lightweight feel']
   },
@@ -124,7 +113,7 @@ export const PRODUCTS_DATA: Product[] = [
     categoryLabel: 'Designer Frames',
     description: 'Modern transparent crystal-clear frame styled from lightweight, hand-polished organic Italian acetate blocks.',
     price: '₹3,999',
-    image: 'https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=600&q=80',
+    image: 'https://images.unsplash.com/photo-1591076482161-42ce6da69f67?auto=format&fit=crop&w=600&q=80',
     features: ['Crystal-clear transparency', 'Subtle gold-core temples', 'Comfort flex-hinges', 'Organic plant-based blocks']
   },
   {
@@ -134,7 +123,7 @@ export const PRODUCTS_DATA: Product[] = [
     categoryLabel: 'Sunglasses',
     description: 'Striking oversized black acetate lenses adorned with sparkling handcrafted crystal rows on the outer temples.',
     price: '₹4,799',
-    image: 'https://images.unsplash.com/photo-1577803645773-f96470509666?auto=format&fit=crop&w=600&q=80',
+    image: 'https://images.unsplash.com/photo-1572635196237-14b3f281503f?auto=format&fit=crop&w=600&q=80',
     features: ['Polished hand-set crystals', 'Shatter-proof gradient tint', 'Scratch-resistant core', 'Ergonomic thick temples']
   },
   {
@@ -144,7 +133,7 @@ export const PRODUCTS_DATA: Product[] = [
     categoryLabel: 'Kids Frames',
     description: 'Ultra-flexible, shatterproof, and comfortable lightweight frames configured perfectly for active school kids.',
     price: '₹1,850',
-    image: 'https://images.unsplash.com/photo-1614252369475-531eba835eb1?auto=format&fit=crop&w=600&q=80',
+    image: 'https://images.unsplash.com/photo-1572635196237-14b3f281503f?auto=format&fit=crop&w=600&q=80',
     features: ['Shatterproof flexy material', 'BPA-free medical silicone', 'Smart non-slip temple tips', 'Ergonomic light comfort']
   },
   {
@@ -155,7 +144,7 @@ export const PRODUCTS_DATA: Product[] = [
     description: 'Ultra-breathable cosmetic contact lenses in lovely Pure Hazel tone with Hydraclear Plus tech.',
     price: '₹1,450',
     originalPrice: '₹1,850',
-    image: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=600&q=80',
+    image: 'https://images.unsplash.com/photo-1508296695146-257a814070b4?auto=format&fit=crop&w=600&q=80',
     features: ['Biocompatible Hazel tint', 'Class 1 UV-blocking core', '14-hour moisture lock', 'Exceptional comfort fit']
   },
   {
@@ -166,7 +155,7 @@ export const PRODUCTS_DATA: Product[] = [
     description: 'Stunning light ash-grey cosmetic lenses with deep dark outer ring definition for daily wear.',
     price: '₹1,550',
     originalPrice: '₹1,999',
-    image: 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=600&q=80',
+    image: 'https://images.unsplash.com/photo-1591076482161-42ce6da69f67?auto=format&fit=crop&w=600&q=80',
     features: ['Contrast ash-grey pigments', 'High oxygen permeability', 'Ultra-soft hydrogel matrix', 'Tear-film friendly structure']
   },
   {
@@ -177,53 +166,18 @@ export const PRODUCTS_DATA: Product[] = [
     description: 'Cosmetic blue contact lenses featuring starry pupil accents and long-lasting absolute hydration.',
     price: '₹1,650',
     originalPrice: '₹2,100',
-    image: 'https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?auto=format&fit=crop&w=600&q=80',
+    image: 'https://images.unsplash.com/photo-1473496169904-658ba7c44d8a?auto=format&fit=crop&w=600&q=80',
     features: ['Shining starburst azure', 'Anti-dryness Hydraclear plus', 'Zero-friction edge mold', 'Protective corneal shield']
   }
 ];
 
 export const GALLERY_DATA: GalleryItem[] = [
   {
-    id: 'g1',
-    title: 'Modern Optical Boutique Showroom',
-    category: 'store',
-    imageUrl: 'https://images.unsplash.com/photo-1509695507497-903c140c43b0?auto=format&fit=crop&w=800&q=80',
-    description: 'Inside our boutique store at Rashbehari Avenue, South Kolkata featuring high-end showcases.'
-  },
-  {
-    id: 'g2',
-    title: 'Precision Slit-Lamp Eye Examination',
-    category: 'testing',
-    imageUrl: 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=800&q=80',
-    description: 'Highly detailed computerized slit-lamp biomicroscope check to capture exact refractive index and ocular health mapping.'
-  },
-  {
-    id: 'g3',
-    title: 'Designer Frame Cabinets',
-    category: 'frames',
-    imageUrl: 'https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=800&q=80',
-    description: 'Browse through over 500+ contemporary specifications in dynamic sizes and styles.'
-  },
-  {
     id: 'g4',
-    title: 'Satisfied Customer Fitting',
+    title: 'Custom Prescriptive Alignment',
     category: 'customers',
-    imageUrl: 'https://images.unsplash.com/photo-1574258495973-f010dfbb5371?auto=format&fit=crop&w=800&q=80',
-    description: 'A happy patron from Southern Avenue receiving their customized progressive frames.'
-  },
-  {
-    id: 'g5',
-    title: 'Clinical Retinal Verification',
-    category: 'testing',
-    imageUrl: 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=800&q=80',
-    description: 'High magnification exam ensuring structural eye health is perfectly aligned.'
-  },
-  {
-    id: 'g6',
-    title: 'Custom Eyewear Handcrafted Delivery',
-    category: 'customers',
-    imageUrl: 'https://images.unsplash.com/photo-1509695507497-903c140c43b0?auto=format&fit=crop&w=800&q=80', // Elegant boutique shelves with beautiful spectacles on display
-    description: 'Our standard fast-delivery packaging crafted beautifully with high-tensile microfiber cases.'
+    imageUrl: 'https://images.unsplash.com/photo-1591076482161-42ce6da69f67?auto=format&fit=crop&w=800&q=80',
+    description: 'Precision physical lens centering customized carefully for optimal progressive corridor heights.'
   }
 ];
 
